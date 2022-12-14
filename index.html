@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Contador</title>
+    <body>
+        <section>
+            <h1>Contador</h1>
+            <p>0</p>
+            <button onclick="aumentar()">Mais</button>
+            <button onclick="diminuir()">Menos</button>
+            <button onclick="zerar()">Zerar</button>
+            <button onclick="dobrar()">Dobrar</button>
+        </section>
+
+    <script>
+        alert("Olá, bem vindo ao meu primeiro contador.")
+
+        //estado da minha aplicação
+        let numero = 0
+        
+        
+        //alteradores do estado da minha aplicação
+        function aumentar() {
+            numero = numero + 1
+            mostrarNaTela()
+
+        }
+        function diminuir() {
+            numero = numero - 1
+            mostrarNaTela()
+
+        }
+        function zerar() {
+            numero = numero - numero
+            mostrarNaTela()
+
+        }
+        function dobrar() {
+            numero = numero * 2
+            mostrarNaTela()
+            } 
+            
+                mostrarNaTela()
+            
+
+        
+
+    
+
+        //mostrar o estado da minha aplicação na tela
+        //''fuction'' podemos chamar do que quiser
+        function mostrarNaTela() {
+            const p = document.querySelector("p")
+            p.innerText = numero 
+        }
+
+        //iniciar
+        mostrarNaTela()
+
+    </script>
+    </body>
+</head>
+</html>

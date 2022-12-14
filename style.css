@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+    background-color: burlywood;;
+    color: white;
+    display: grid;
+    place-items: center;
+
+}
+
+section{
+    background-color: rgba(165, 47, 47, 0.918);
+    border-radius: 25px;
+    padding: 100px;
+    text-align: center;
+
+}
+p{
+    font-size: 100px;
+}
+button {
+    transition: 1s;
+}
+button:hover{
+    padding: 25px;
+    color: azure;
+    background-color: rgba(211, 23, 23, 0.637);
+
+    
+    
+}

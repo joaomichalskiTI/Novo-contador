@@ -24,7 +24,7 @@ p{
     font-size: 100px;
 }
 button {
-    transition: 1s;
+    transition: 0.8s;
 }
 button:hover{
     padding: 25px;
